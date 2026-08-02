@@ -16,7 +16,7 @@
 
 package com.android.dialer.dialpad;
 
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.text.TextUtils;
 
 import com.android.dialer.dialpad.SmartDialPrefix.PhoneNumberTokens;
@@ -237,8 +237,8 @@ public class SmartDialNameMatcher {
      *
      * A token is defined as a range in the display name delimited by characters that have no
      * latin alphabet equivalents (e.g. spaces - ' ', periods - ',', underscores - '_' or chinese
-     * characters - '王'). Transliteration from non-latin characters to latin character will be
-     * done on a best effort basis - e.g. 'Ü' - 'u'.
+     * characters - '鐜?). Transliteration from non-latin characters to latin character will be
+     * done on a best effort basis - e.g. '脺' - 'u'.
      *
      * For example,
      * the display name "Phillips Thomas Jr" contains three tokens: "phillips", "thomas", and "jr".
@@ -437,3 +437,4 @@ public class SmartDialNameMatcher {
         return mQuery;
     }
 }
+

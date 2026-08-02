@@ -2,7 +2,7 @@ package com.android.dialer.service;
 
 import android.content.Context;
 import android.net.Uri;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 
 import com.android.dialer.calllog.ContactInfo;
 
@@ -59,3 +59,4 @@ public interface CachedNumberLookupService {
      */
     public void clearAllCacheEntries(Context context);
 }
+

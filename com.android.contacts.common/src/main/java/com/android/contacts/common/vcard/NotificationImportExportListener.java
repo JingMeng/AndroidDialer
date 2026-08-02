@@ -28,7 +28,7 @@ import android.os.Handler;
 import android.os.Message;
 import android.provider.ContactsContract;
 import android.provider.ContactsContract.RawContacts;
-import android.support.v4.app.NotificationCompat;
+import androidx.core.app.NotificationCompat;
 import android.widget.Toast;
 
 import com.android.contacts.common.R;
@@ -316,3 +316,4 @@ public class NotificationImportExportListener implements VCardImportExportListen
         mContext.finish();
     }
 }
+

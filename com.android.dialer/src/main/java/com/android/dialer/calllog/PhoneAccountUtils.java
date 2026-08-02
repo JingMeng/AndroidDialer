@@ -18,7 +18,7 @@ package com.android.dialer.calllog;
 
 import android.content.ComponentName;
 import android.content.Context;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.telecom.PhoneAccount;
 import android.telecom.PhoneAccountHandle;
 import android.text.TextUtils;
@@ -115,3 +115,4 @@ public class PhoneAccountUtils {
         return TelecomUtil.getPhoneAccount(context, accountHandle);
     }
 }
+

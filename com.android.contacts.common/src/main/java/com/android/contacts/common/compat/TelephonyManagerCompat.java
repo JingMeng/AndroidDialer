@@ -17,7 +17,7 @@
 package com.android.contacts.common.compat;
 
 import android.net.Uri;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.telecom.PhoneAccountHandle;
 import android.telephony.TelephonyManager;
 
@@ -171,3 +171,4 @@ public class TelephonyManagerCompat {
                 .isVoicemailVibrationEnabled(telephonyManager, accountHandle);
     }
 }
+

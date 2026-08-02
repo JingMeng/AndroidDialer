@@ -31,7 +31,6 @@ import android.graphics.Rect;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Trace;
-import android.support.v13.app.FragmentCompat;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -64,8 +63,7 @@ import java.util.HashMap;
  */
 public class SpeedDialFragment extends Fragment implements OnItemClickListener,
         PhoneFavoritesTileAdapter.OnDataSetChangedForAnimationListener,
-        EmptyContentView.OnEmptyViewActionButtonClickedListener,
-        FragmentCompat.OnRequestPermissionsResultCallback {
+        EmptyContentView.OnEmptyViewActionButtonClickedListener {
 
     private static final int READ_CONTACTS_PERMISSION_REQUEST_CODE = 1;
 
@@ -484,7 +482,7 @@ public class SpeedDialFragment extends Fragment implements OnItemClickListener,
         }
 
         if (!PermissionsUtil.hasPermission(activity, READ_CONTACTS)) {
-          FragmentCompat.requestPermissions(this, new String[] {READ_CONTACTS},
+          requestPermissions(new String[] {READ_CONTACTS},
               READ_CONTACTS_PERMISSION_REQUEST_CODE);
         } else {
             // Switch tabs

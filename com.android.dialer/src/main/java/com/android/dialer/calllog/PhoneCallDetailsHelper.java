@@ -24,7 +24,7 @@ import android.content.res.Resources;
 import android.graphics.Typeface;
 import android.provider.CallLog.Calls;
 import android.provider.ContactsContract.CommonDataKinds.Phone;
-import android.support.v4.content.ContextCompat;
+import androidx.core.content.ContextCompat;
 import android.telecom.PhoneAccount;
 import android.text.TextUtils;
 import android.text.format.DateUtils;
@@ -353,3 +353,4 @@ public class PhoneCallDetailsHelper {
         return mResources.getString(R.string.voicemailDurationFormat, minutes, seconds);
     }
 }
+

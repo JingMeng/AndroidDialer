@@ -31,7 +31,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.PowerManager;
 import android.provider.VoicemailContract;
-import android.support.v4.content.FileProvider;
+import androidx.core.content.FileProvider;
 import android.util.Log;
 import android.view.WindowManager.LayoutParams;
 
@@ -1008,3 +1008,4 @@ public class VoicemailPlaybackPresenter implements MediaPlayer.OnPreparedListene
         sInstance = null;
     }
 }
+

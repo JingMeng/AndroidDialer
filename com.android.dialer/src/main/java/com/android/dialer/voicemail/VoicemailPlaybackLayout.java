@@ -25,7 +25,7 @@ import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Handler;
 import android.util.AttributeSet;
-import android.support.design.widget.Snackbar;
+import com.google.android.material.snackbar.Snackbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ImageButton;
@@ -635,3 +635,4 @@ public class VoicemailPlaybackLayout extends LinearLayout
         return mStateText.getText().toString();
     }
 }
+

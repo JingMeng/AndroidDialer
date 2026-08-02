@@ -30,10 +30,9 @@ import android.os.Message;
 import android.provider.CallLog;
 import android.provider.CallLog.Calls;
 import android.provider.ContactsContract;
-import android.support.annotation.Nullable;
-import android.support.v13.app.FragmentCompat;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import androidx.annotation.Nullable;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -55,8 +54,7 @@ import static android.Manifest.permission.READ_CALL_LOG;
  * (all, missed or voicemails), specify it in the constructor.
  */
 public class CallLogFragment extends Fragment implements CallLogQueryHandler.Listener,
-        CallLogAdapter.CallFetcher, OnEmptyViewActionButtonClickedListener,
-        FragmentCompat.OnRequestPermissionsResultCallback {
+        CallLogAdapter.CallFetcher, OnEmptyViewActionButtonClickedListener {
     private static final String TAG = "CallLogFragment";
 
     /**
@@ -488,7 +486,7 @@ public class CallLogFragment extends Fragment implements CallLogQueryHandler.Lis
         }
 
         if (!PermissionsUtil.hasPermission(activity, READ_CALL_LOG)) {
-          FragmentCompat.requestPermissions(this, new String[] {READ_CALL_LOG},
+          requestPermissions(new String[] {READ_CALL_LOG},
               READ_CALL_LOG_PERMISSION_REQUEST_CODE);
         } else if (!mIsCallLogActivity) {
             // Show dialpad if we are not in the call log activity.
@@ -528,3 +526,4 @@ public class CallLogFragment extends Fragment implements CallLogQueryHandler.Lis
         mDisplayUpdateHandler.removeMessages(EVENT_UPDATE_DISPLAY);
     }
 }
+

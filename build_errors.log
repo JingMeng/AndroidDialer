@@ -1,0 +1,505 @@
+> Task :com.android.common:preBuild UP-TO-DATE
+> Task :com.android.common:preDebugBuild UP-TO-DATE
+> Task :com.android.common:mergeDebugJniLibFolders UP-TO-DATE
+> Task :com.android.common:mergeDebugNativeLibs NO-SOURCE
+> Task :com.android.common:stripDebugDebugSymbols NO-SOURCE
+> Task :com.android.common:copyDebugJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :com.android.common:generateDebugResValues UP-TO-DATE
+> Task :com.android.common:generateDebugResources UP-TO-DATE
+> Task :com.android.common:packageDebugResources UP-TO-DATE
+> Task :com.android.common:parseDebugLocalResources UP-TO-DATE
+> Task :com.android.common:processDebugManifest UP-TO-DATE
+> Task :com.android.common:generateDebugRFile UP-TO-DATE
+> Task :com.android.common:extractDebugAnnotations UP-TO-DATE
+> Task :com.android.common:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :com.android.common:javaPreCompileDebug UP-TO-DATE
+> Task :com.android.common:compileDebugJavaWithJavac UP-TO-DATE
+> Task :com.android.common:mergeDebugGeneratedProguardFiles UP-TO-DATE
+> Task :com.android.common:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :com.android.common:mergeDebugShaders UP-TO-DATE
+> Task :com.android.common:compileDebugShaders NO-SOURCE
+> Task :com.android.common:generateDebugAssets UP-TO-DATE
+> Task :com.android.common:packageDebugAssets UP-TO-DATE
+> Task :com.android.common:prepareDebugArtProfile UP-TO-DATE
+> Task :com.android.common:prepareLintJarForPublish UP-TO-DATE
+> Task :com.android.common:processDebugJavaRes NO-SOURCE
+> Task :com.android.common:mergeDebugJavaResource UP-TO-DATE
+> Task :com.android.common:syncDebugLibJars UP-TO-DATE
+> Task :com.android.common:writeDebugAarMetadata UP-TO-DATE
+> Task :com.android.common:bundleDebugAar UP-TO-DATE
+> Task :com.android.common:assembleDebug UP-TO-DATE
+> Task :com.android.contacts.common:preBuild UP-TO-DATE
+> Task :com.android.contacts.common:preDebugBuild UP-TO-DATE
+> Task :com.android.contacts.common:mergeDebugJniLibFolders UP-TO-DATE
+> Task :com.android.contacts.common:mergeDebugNativeLibs NO-SOURCE
+> Task :com.android.contacts.common:stripDebugDebugSymbols NO-SOURCE
+> Task :com.android.contacts.common:copyDebugJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :com.android.common:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :com.android.contacts.common:generateDebugResValues UP-TO-DATE
+> Task :com.android.contacts.common:generateDebugResources UP-TO-DATE
+> Task :com.android.contacts.common:packageDebugResources UP-TO-DATE
+> Task :com.android.contacts.common:parseDebugLocalResources UP-TO-DATE
+> Task :com.android.contacts.common:processDebugManifest UP-TO-DATE
+> Task :com.android.contacts.common:generateDebugRFile UP-TO-DATE
+> Task :com.android.phone.common:preBuild UP-TO-DATE
+> Task :com.android.phone.common:preDebugBuild UP-TO-DATE
+> Task :com.android.phone.common:generateDebugResValues UP-TO-DATE
+> Task :com.android.phone.common:generateDebugResources UP-TO-DATE
+> Task :com.android.phone.common:packageDebugResources UP-TO-DATE
+> Task :com.android.phone.common:parseDebugLocalResources UP-TO-DATE
+> Task :com.android.phone.common:processDebugManifest UP-TO-DATE
+> Task :com.android.phone.common:generateDebugRFile UP-TO-DATE
+> Task :com.android.phone.common:javaPreCompileDebug UP-TO-DATE
+> Task :com.android.phone.common:compileDebugJavaWithJavac UP-TO-DATE
+> Task :com.android.phone.common:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :com.android.contacts.common:extractDebugAnnotations UP-TO-DATE
+> Task :com.android.contacts.common:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :com.android.contacts.common:javaPreCompileDebug UP-TO-DATE
+> Task :com.android.contacts.common:compileDebugJavaWithJavac UP-TO-DATE
+> Task :com.android.contacts.common:mergeDebugGeneratedProguardFiles UP-TO-DATE
+> Task :com.android.contacts.common:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :com.android.contacts.common:mergeDebugShaders UP-TO-DATE
+> Task :com.android.contacts.common:compileDebugShaders NO-SOURCE
+> Task :com.android.contacts.common:generateDebugAssets UP-TO-DATE
+> Task :com.android.contacts.common:packageDebugAssets UP-TO-DATE
+> Task :com.android.contacts.common:prepareDebugArtProfile UP-TO-DATE
+> Task :com.android.contacts.common:prepareLintJarForPublish UP-TO-DATE
+> Task :com.android.contacts.common:processDebugJavaRes NO-SOURCE
+> Task :com.android.contacts.common:mergeDebugJavaResource UP-TO-DATE
+> Task :com.android.contacts.common:syncDebugLibJars UP-TO-DATE
+> Task :com.android.contacts.common:writeDebugAarMetadata UP-TO-DATE
+> Task :com.android.contacts.common:bundleDebugAar UP-TO-DATE
+> Task :com.android.contacts.common:assembleDebug UP-TO-DATE
+> Task :com.android.dialer:preBuild UP-TO-DATE
+> Task :com.android.dialer:preDebugBuild UP-TO-DATE
+> Task :com.android.dialer:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :com.android.contacts.common:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :com.android.dialer:javaPreCompileDebug UP-TO-DATE
+> Task :com.android.common:compileDebugLibraryResources UP-TO-DATE
+> Task :com.android.contacts.common:compileDebugLibraryResources UP-TO-DATE
+> Task :com.android.phone.common:writeDebugAarMetadata UP-TO-DATE
+> Task :com.android.dialer:checkDebugAarMetadata UP-TO-DATE
+> Task :com.android.dialer:generateDebugResValues UP-TO-DATE
+> Task :com.android.dialer:mapDebugSourceSetPaths UP-TO-DATE
+> Task :com.android.dialer:generateDebugResources UP-TO-DATE
+> Task :com.android.dialer:mergeDebugResources UP-TO-DATE
+> Task :com.android.dialer:packageDebugResources UP-TO-DATE
+> Task :com.android.dialer:parseDebugLocalResources UP-TO-DATE
+> Task :com.android.dialer:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :com.android.common:extractDeepLinksDebug UP-TO-DATE
+> Task :com.android.contacts.common:extractDeepLinksDebug UP-TO-DATE
+> Task :com.android.dialer:extractDeepLinksDebug UP-TO-DATE
+> Task :com.android.phone.common:extractDeepLinksDebug UP-TO-DATE
+> Task :com.android.dialer:processDebugMainManifest UP-TO-DATE
+> Task :com.android.dialer:processDebugManifest UP-TO-DATE
+> Task :com.android.dialer:processDebugManifestForPackage UP-TO-DATE
+> Task :com.android.phone.common:compileDebugLibraryResources UP-TO-DATE
+> Task :com.android.dialer:processDebugResources UP-TO-DATE
+
+> Task :com.android.dialer:compileDebugJavaWithJavac FAILED
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\util\PhoneNumberUtil.java:31: error: package com.google.i18n.phonenumbers.geocoding does not exist
+import com.google.i18n.phonenumbers.geocoding.PhoneNumberOfflineGeocoder;
+                                             ^
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\calllog\ContactInfo.java:100: error: cannot find symbol
+        return Objects.toStringHelper(this).add("lookupUri", lookupUri).add("name", name)
+                      ^
+  symbol:   method toStringHelper(ContactInfo)
+  location: class Objects
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\calllog\CallLogListItemViewHolder.java:473: error: cannot find symbol
+                primaryActionButtonView.setImageResource(R.drawable.ic_call_24dp);
+                                                                   ^
+  symbol:   variable ic_call_24dp
+  location: class drawable
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\calllog\CallTypeIconsView.java:203: error: cannot find symbol
+            voicemail = r.getDrawable(R.drawable.ic_call_voicemail_holo_dark);
+                                                ^
+  symbol:   variable ic_call_voicemail_holo_dark
+  location: class drawable
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\calllog\DefaultVoicemailNotifier.java:183: error: cannot find symbol
+                .setColor(resources.getColor(R.color.dialer_theme_color))
+                                                    ^
+  symbol:   variable dialer_theme_color
+  location: class color
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\calllog\MissedCallNotifier.java:132: error: cannot find symbol
+                .setColor(mContext.getResources().getColor(R.color.dialer_theme_color))
+                                                                  ^
+  symbol:   variable dialer_theme_color
+  location: class color
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\calllog\MissedCallNotifier.java:145: error: cannot find symbol
+                .setColor(mContext.getResources().getColor(R.color.dialer_theme_color))
+                                                                  ^
+  symbol:   variable dialer_theme_color
+  location: class color
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\calllog\MissedCallNotifier.java:167: error: cannot find symbol
+                    builder.addAction(R.drawable.ic_message_24dp,
+                                                ^
+  symbol:   variable ic_message_24dp
+  location: class drawable
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\compat\UserManagerSdkCompat.java:36: error: cannot find symbol
+        return android.support.v4.os.UserManagerCompat.isUserUnlocked(context);
+                                    ^
+  symbol:   class UserManagerCompat
+  location: package android.support.v4.os
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\database\DialerDatabaseHelper.java:817: error: cannot find symbol
+                    insert.bindString(5, mContext.getResources().getString(R.string.missing_name));
+                                                                                   ^
+  symbol:   variable missing_name
+  location: class string
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:339: error: cannot find symbol
+        mDialpadSlideInDuration = getResources().getInteger(R.integer.dialpad_slide_in_duration);
+                                                                     ^
+  symbol:   variable dialpad_slide_in_duration
+  location: class integer
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:363: error: cannot find symbol
+        mDialpadView = (DialpadView) fragmentView.findViewById(R.id.dialpad_view);
+                                                                   ^
+  symbol:   variable dialpad_view
+  location: class id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:374: error: cannot find symbol
+        View oneButton = fragmentView.findViewById(R.id.one);
+                                                       ^
+  symbol:   variable one
+  location: class id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:612: error: cannot find symbol
+        final int[] buttonIds = new int[] {R.id.one, R.id.two, R.id.three, R.id.four, R.id.five,
+                                               ^
+  symbol:   variable one
+  location: class id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:612: error: cannot find symbol
+        final int[] buttonIds = new int[] {R.id.one, R.id.two, R.id.three, R.id.four, R.id.five,
+                                                         ^
+  symbol:   variable two
+  location: class id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:612: error: cannot find symbol
+        final int[] buttonIds = new int[] {R.id.one, R.id.two, R.id.three, R.id.four, R.id.five,
+                                                                   ^
+  symbol:   variable three
+  location: class id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:612: error: cannot find symbol
+        final int[] buttonIds = new int[] {R.id.one, R.id.two, R.id.three, R.id.four, R.id.five,
+                                                                               ^
+  symbol:   variable four
+  location: class id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:612: error: cannot find symbol
+        final int[] buttonIds = new int[] {R.id.one, R.id.two, R.id.three, R.id.four, R.id.five,
+                                                                                          ^
+  symbol:   variable five
+  location: class id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:613: error: cannot find symbol
+                R.id.six, R.id.seven, R.id.eight, R.id.nine, R.id.star, R.id.zero, R.id.pound};
+                    ^
+  symbol:   variable six
+  location: class id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:613: error: cannot find symbol
+                R.id.six, R.id.seven, R.id.eight, R.id.nine, R.id.star, R.id.zero, R.id.pound};
+                              ^
+  symbol:   variable seven
+  location: class id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:613: error: cannot find symbol
+                R.id.six, R.id.seven, R.id.eight, R.id.nine, R.id.star, R.id.zero, R.id.pound};
+                                          ^
+  symbol:   variable eight
+  location: class id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:613: error: cannot find symbol
+                R.id.six, R.id.seven, R.id.eight, R.id.nine, R.id.star, R.id.zero, R.id.pound};
+                                                      ^
+  symbol:   variable nine
+  location: class id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:613: error: cannot find symbol
+                R.id.six, R.id.seven, R.id.eight, R.id.nine, R.id.star, R.id.zero, R.id.pound};
+                                                                 ^
+  symbol:   variable star
+  location: class id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:613: error: cannot find symbol
+                R.id.six, R.id.seven, R.id.eight, R.id.nine, R.id.star, R.id.zero, R.id.pound};
+                                                                            ^
+  symbol:   variable zero
+  location: class id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:613: error: cannot find symbol
+                R.id.six, R.id.seven, R.id.eight, R.id.nine, R.id.star, R.id.zero, R.id.pound};
+                                                                                       ^
+  symbol:   variable pound
+  location: class id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:623: error: cannot find symbol
+        final DialpadKeyButton one = (DialpadKeyButton) fragmentView.findViewById(R.id.one);
+                                                                                      ^
+  symbol:   variable one
+  location: class id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:627: error: cannot find symbol
+        final DialpadKeyButton zero = (DialpadKeyButton) fragmentView.findViewById(R.id.zero);
+                                                                                       ^
+  symbol:   variable zero
+  location: class id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:825: error: cannot find symbol
+        if (view.getId() == R.id.digits) {
+                                ^
+  symbol:   variable digits
+  location: class id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:846: error: cannot find symbol
+            if (resId == R.id.one) {
+                             ^
+  symbol:   variable one
+  location: class id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:848: error: cannot find symbol
+            } else if (resId == R.id.two) {
+                                    ^
+  symbol:   variable two
+  location: class id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:850: error: cannot find symbol
+            } else if (resId == R.id.three) {
+                                    ^
+  symbol:   variable three
+  location: class id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:852: error: cannot find symbol
+            } else if (resId == R.id.four) {
+                                    ^
+  symbol:   variable four
+  location: class id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:854: error: cannot find symbol
+            } else if (resId == R.id.five) {
+                                    ^
+  symbol:   variable five
+  location: class id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:856: error: cannot find symbol
+            } else if (resId == R.id.six) {
+                                    ^
+  symbol:   variable six
+  location: class id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:858: error: cannot find symbol
+            } else if (resId == R.id.seven) {
+                                    ^
+  symbol:   variable seven
+  location: class id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:860: error: cannot find symbol
+            } else if (resId == R.id.eight) {
+                                    ^
+  symbol:   variable eight
+  location: class id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:862: error: cannot find symbol
+            } else if (resId == R.id.nine) {
+                                    ^
+  symbol:   variable nine
+  location: class id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:864: error: cannot find symbol
+            } else if (resId == R.id.zero) {
+                                    ^
+  symbol:   variable zero
+  location: class id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:866: error: cannot find symbol
+            } else if (resId == R.id.pound) {
+                                    ^
+  symbol:   variable pound
+  location: class id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:868: error: cannot find symbol
+            } else if (resId == R.id.star) {
+                                    ^
+  symbol:   variable star
+  location: class id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:916: error: cannot find symbol
+        } else if (resId == R.id.deleteButton) {
+                                ^
+  symbol:   variable deleteButton
+  location: class id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:918: error: cannot find symbol
+        } else if (resId == R.id.digits) {
+                                ^
+  symbol:   variable digits
+  location: class id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:922: error: cannot find symbol
+        } else if (resId == R.id.dialpad_overflow) {
+                                ^
+  symbol:   variable dialpad_overflow
+  location: class id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:934: error: cannot find symbol
+        if (id == R.id.deleteButton) {
+                      ^
+  symbol:   variable deleteButton
+  location: class id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:937: error: cannot find symbol
+        } else if (id == R.id.one) {
+                             ^
+  symbol:   variable one
+  location: class id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:975: error: cannot find symbol
+        } else if (id == R.id.zero) {
+                             ^
+  symbol:   variable zero
+  location: class id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:986: error: cannot find symbol
+        } else if (id == R.id.digits) {
+                             ^
+  symbol:   variable digits
+  location: class id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:1637: error: cannot find symbol
+        final DialpadView dialpadView = (DialpadView) getView().findViewById(R.id.dialpad_view);
+                                                                                 ^
+  symbol:   variable dialpad_view
+  location: class id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\DialtactsActivity.java:407: error: cannot find symbol
+        mSearchView = (EditText) searchEditTextLayout.findViewById(R.id.search_view);
+                                                                       ^
+  symbol:   variable search_view
+  location: class id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\DialtactsActivity.java:462: error: cannot find symbol
+                    isLayoutRtl ? R.anim.dialpad_slide_in_left : R.anim.dialpad_slide_in_right);
+                                   ^
+  symbol:   variable anim
+  location: class R
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\DialtactsActivity.java:462: error: cannot find symbol
+                    isLayoutRtl ? R.anim.dialpad_slide_in_left : R.anim.dialpad_slide_in_right);
+                                                                  ^
+  symbol:   variable anim
+  location: class R
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\DialtactsActivity.java:464: error: cannot find symbol
+                    isLayoutRtl ? R.anim.dialpad_slide_out_left : R.anim.dialpad_slide_out_right);
+                                   ^
+  symbol:   variable anim
+  location: class R
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\DialtactsActivity.java:464: error: cannot find symbol
+                    isLayoutRtl ? R.anim.dialpad_slide_out_left : R.anim.dialpad_slide_out_right);
+                                                                   ^
+  symbol:   variable anim
+  location: class R
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\DialtactsActivity.java:466: error: cannot find symbol
+            mSlideIn = AnimationUtils.loadAnimation(this, R.anim.dialpad_slide_in_bottom);
+                                                           ^
+  symbol:   variable anim
+  location: class R
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\DialtactsActivity.java:467: error: cannot find symbol
+            mSlideOut = AnimationUtils.loadAnimation(this, R.anim.dialpad_slide_out_bottom);
+                                                            ^
+  symbol:   variable anim
+  location: class R
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\DialtactsActivity.java:1354: error: cannot find symbol
+                    getResources().getDrawable(R.drawable.ic_person_add_24dp),
+                                                         ^
+  symbol:   variable ic_person_add_24dp
+  location: class drawable
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\list\PhoneFavoritesTileAdapter.java:291: error: cannot find symbol
+                    mResources.getString(R.string.missing_name);
+                                                 ^
+  symbol:   variable missing_name
+  location: class string
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\list\PhoneFavoritesTileAdapter.java:293: error: cannot find symbol
+                    mResources.getString(R.string.missing_name);
+                                                 ^
+  symbol:   variable missing_name
+  location: class string
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\list\SearchFragment.java:120: error: cannot find symbol
+        mShowDialpadDuration = res.getInteger(R.integer.dialpad_slide_in_duration);
+                                                       ^
+  symbol:   variable dialpad_slide_in_duration
+  location: class integer
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\list\SearchFragment.java:121: error: cannot find symbol
+        mHideDialpadDuration = res.getInteger(R.integer.dialpad_slide_out_duration);
+                                                       ^
+  symbol:   variable dialpad_slide_out_duration
+  location: class integer
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\widget\SearchEditTextLayout.java:97: error: cannot find symbol
+        mExpanded = findViewById(R.id.search_box_expanded);
+                                     ^
+  symbol:   variable search_box_expanded
+  location: class id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\widget\SearchEditTextLayout.java:98: error: cannot find symbol
+        mSearchView = (EditText) mExpanded.findViewById(R.id.search_view);
+                                                            ^
+  symbol:   variable search_view
+  location: class id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\widget\SearchEditTextLayout.java:104: error: cannot find symbol
+        mBackButtonView = findViewById(R.id.search_back_button);
+                                           ^
+  symbol:   variable search_back_button
+  location: class id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\widget\SearchEditTextLayout.java:105: error: cannot find symbol
+        mExpandedSearchBox = findViewById(R.id.search_box_expanded);
+                                              ^
+  symbol:   variable search_box_expanded
+  location: class id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\widget\SearchEditTextLayout.java:106: error: cannot find symbol
+        mClearButtonView = findViewById(R.id.search_close_button);
+                                            ^
+  symbol:   variable search_close_button
+  location: class id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\widget\SearchEditTextLayout.java:154: error: cannot find symbol
+        findViewById(R.id.search_close_button).setOnClickListener(new OnClickListener() {
+                         ^
+  symbol:   variable search_close_button
+  location: class id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\widget\SearchEditTextLayout.java:161: error: cannot find symbol
+        findViewById(R.id.search_back_button).setOnClickListener(new OnClickListener() {
+                         ^
+  symbol:   variable search_back_button
+  location: class id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\filterednumber\BlockedNumbersFragment.java:126: error: cannot find symbol
+                ActivityCompat.getColor(getActivity(), R.color.dialer_theme_color));
+                                                              ^
+  symbol:   variable dialer_theme_color
+  location: class color
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\list\DialerPhoneNumberListAdapter.java:174: error: cannot find symbol
+                drawableId = R.drawable.ic_search_add_contact;
+                                       ^
+  symbol:   variable ic_search_add_contact
+  location: class drawable
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\list\DialerPhoneNumberListAdapter.java:178: error: cannot find symbol
+                drawableId = R.drawable.ic_person_24dp;
+                                       ^
+  symbol:   variable ic_person_24dp
+  location: class drawable
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\list\DialerPhoneNumberListAdapter.java:182: error: cannot find symbol
+                drawableId = R.drawable.ic_message_24dp;
+                                       ^
+  symbol:   variable ic_message_24dp
+  location: class drawable
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\list\DialerPhoneNumberListAdapter.java:186: error: cannot find symbol
+                drawableId = R.drawable.ic_videocam;
+                                       ^
+  symbol:   variable ic_videocam
+  location: class drawable
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\list\BlockedListSearchFragment.java:112: error: cannot find symbol
+        mSearchView = (EditText) searchEditTextLayout.findViewById(R.id.search_view);
+                                                                       ^
+  symbol:   variable search_view
+  location: class id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\list\BlockedListSearchFragment.java:116: error: cannot find symbol
+        searchEditTextLayout.findViewById(R.id.search_box_expanded)
+                                              ^
+  symbol:   variable search_box_expanded
+  location: class id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\settings\DialerSettingsActivity.java:150: error: cannot find symbol
+        return getResources().getBoolean(R.bool.config_display_order_user_changeable)
+                                               ^
+  symbol:   variable config_display_order_user_changeable
+  location: class bool
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\settings\DialerSettingsActivity.java:151: error: cannot find symbol
+                && getResources().getBoolean(R.bool.config_sort_order_user_changeable);
+                                                   ^
+  symbol:   variable config_sort_order_user_changeable
+  location: class bool
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\util\PhoneNumberUtil.java:111: error: cannot find symbol
+        PhoneNumberOfflineGeocoder geocoder = PhoneNumberOfflineGeocoder.getInstance();
+        ^
+  symbol:   class PhoneNumberOfflineGeocoder
+  location: class PhoneNumberUtil
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\util\PhoneNumberUtil.java:111: error: cannot find symbol
+        PhoneNumberOfflineGeocoder geocoder = PhoneNumberOfflineGeocoder.getInstance();
+                                              ^
+  symbol:   variable PhoneNumberOfflineGeocoder
+  location: class PhoneNumberUtil
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+78 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':com.android.dialer:compileDebugJavaWithJavac'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+> Run with --info option to get more log output.
+> Run with --scan to get full insights.
+
+BUILD FAILED in 1s
+73 actionable tasks: 1 executed, 72 up-to-date

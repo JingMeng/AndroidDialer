@@ -16,7 +16,7 @@
 
 package com.android.dialer.service;
 
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.view.View;
 import android.view.ViewStub;
 import android.widget.QuickContactBadge;
@@ -84,3 +84,4 @@ public interface ExtendedBlockingButtonRenderer {
     void updatePhotoAndLabelIfNecessary(
             String number, String countryIso, QuickContactBadge badge, TextView view);
 }
+

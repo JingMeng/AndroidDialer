@@ -1,0 +1,559 @@
+> Task :com.android.common:preBuild UP-TO-DATE
+> Task :com.android.common:preDebugBuild UP-TO-DATE
+> Task :com.android.common:mergeDebugJniLibFolders UP-TO-DATE
+> Task :com.android.common:mergeDebugNativeLibs NO-SOURCE
+> Task :com.android.common:stripDebugDebugSymbols NO-SOURCE
+> Task :com.android.common:copyDebugJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :com.android.common:generateDebugResValues UP-TO-DATE
+> Task :com.android.common:generateDebugResources UP-TO-DATE
+> Task :com.android.common:packageDebugResources UP-TO-DATE
+> Task :com.android.common:parseDebugLocalResources UP-TO-DATE
+> Task :com.android.common:processDebugManifest UP-TO-DATE
+> Task :com.android.common:generateDebugRFile UP-TO-DATE
+> Task :com.android.common:extractDebugAnnotations UP-TO-DATE
+> Task :com.android.common:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :com.android.common:javaPreCompileDebug UP-TO-DATE
+> Task :com.android.common:compileDebugJavaWithJavac UP-TO-DATE
+> Task :com.android.common:mergeDebugGeneratedProguardFiles UP-TO-DATE
+> Task :com.android.common:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :com.android.common:mergeDebugShaders UP-TO-DATE
+> Task :com.android.common:compileDebugShaders NO-SOURCE
+> Task :com.android.common:generateDebugAssets UP-TO-DATE
+> Task :com.android.common:packageDebugAssets UP-TO-DATE
+> Task :com.android.common:prepareDebugArtProfile UP-TO-DATE
+> Task :com.android.common:prepareLintJarForPublish UP-TO-DATE
+> Task :com.android.common:processDebugJavaRes NO-SOURCE
+> Task :com.android.common:mergeDebugJavaResource UP-TO-DATE
+> Task :com.android.common:syncDebugLibJars UP-TO-DATE
+> Task :com.android.common:writeDebugAarMetadata UP-TO-DATE
+> Task :com.android.common:bundleDebugAar UP-TO-DATE
+> Task :com.android.common:assembleDebug UP-TO-DATE
+> Task :com.android.contacts.common:preBuild UP-TO-DATE
+> Task :com.android.contacts.common:preDebugBuild UP-TO-DATE
+> Task :com.android.contacts.common:mergeDebugJniLibFolders UP-TO-DATE
+> Task :com.android.contacts.common:mergeDebugNativeLibs NO-SOURCE
+> Task :com.android.contacts.common:stripDebugDebugSymbols NO-SOURCE
+> Task :com.android.contacts.common:copyDebugJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :com.android.common:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :com.android.contacts.common:generateDebugResValues UP-TO-DATE
+> Task :com.android.contacts.common:generateDebugResources UP-TO-DATE
+> Task :com.android.contacts.common:packageDebugResources UP-TO-DATE
+> Task :com.android.contacts.common:parseDebugLocalResources UP-TO-DATE
+> Task :com.android.contacts.common:processDebugManifest UP-TO-DATE
+> Task :com.android.contacts.common:generateDebugRFile UP-TO-DATE
+> Task :com.android.phone.common:preBuild UP-TO-DATE
+> Task :com.android.phone.common:preDebugBuild UP-TO-DATE
+> Task :com.android.phone.common:generateDebugResValues UP-TO-DATE
+> Task :com.android.phone.common:generateDebugResources UP-TO-DATE
+> Task :com.android.phone.common:packageDebugResources UP-TO-DATE
+> Task :com.android.phone.common:parseDebugLocalResources UP-TO-DATE
+> Task :com.android.phone.common:processDebugManifest UP-TO-DATE
+> Task :com.android.phone.common:generateDebugRFile UP-TO-DATE
+> Task :com.android.phone.common:javaPreCompileDebug UP-TO-DATE
+> Task :com.android.phone.common:compileDebugJavaWithJavac UP-TO-DATE
+> Task :com.android.phone.common:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :com.android.contacts.common:extractDebugAnnotations UP-TO-DATE
+> Task :com.android.contacts.common:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :com.android.contacts.common:javaPreCompileDebug UP-TO-DATE
+> Task :com.android.contacts.common:compileDebugJavaWithJavac UP-TO-DATE
+> Task :com.android.contacts.common:mergeDebugGeneratedProguardFiles UP-TO-DATE
+> Task :com.android.contacts.common:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :com.android.contacts.common:mergeDebugShaders UP-TO-DATE
+> Task :com.android.contacts.common:compileDebugShaders NO-SOURCE
+> Task :com.android.contacts.common:generateDebugAssets UP-TO-DATE
+> Task :com.android.contacts.common:packageDebugAssets UP-TO-DATE
+> Task :com.android.contacts.common:prepareDebugArtProfile UP-TO-DATE
+> Task :com.android.contacts.common:prepareLintJarForPublish UP-TO-DATE
+> Task :com.android.contacts.common:processDebugJavaRes NO-SOURCE
+> Task :com.android.contacts.common:mergeDebugJavaResource UP-TO-DATE
+> Task :com.android.contacts.common:syncDebugLibJars
+> Task :com.android.contacts.common:writeDebugAarMetadata UP-TO-DATE
+> Task :com.android.contacts.common:bundleDebugAar
+> Task :com.android.contacts.common:assembleDebug
+> Task :com.android.dialer:preBuild UP-TO-DATE
+> Task :com.android.dialer:preDebugBuild UP-TO-DATE
+> Task :com.android.dialer:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :com.android.contacts.common:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :com.android.dialer:javaPreCompileDebug UP-TO-DATE
+> Task :com.android.common:compileDebugLibraryResources UP-TO-DATE
+> Task :com.android.contacts.common:compileDebugLibraryResources UP-TO-DATE
+> Task :com.android.phone.common:writeDebugAarMetadata UP-TO-DATE
+> Task :com.android.dialer:checkDebugAarMetadata UP-TO-DATE
+> Task :com.android.dialer:generateDebugResValues UP-TO-DATE
+> Task :com.android.dialer:mapDebugSourceSetPaths UP-TO-DATE
+> Task :com.android.dialer:generateDebugResources UP-TO-DATE
+> Task :com.android.dialer:mergeDebugResources UP-TO-DATE
+> Task :com.android.dialer:packageDebugResources UP-TO-DATE
+> Task :com.android.dialer:parseDebugLocalResources UP-TO-DATE
+> Task :com.android.dialer:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :com.android.common:extractDeepLinksDebug UP-TO-DATE
+> Task :com.android.contacts.common:extractDeepLinksDebug UP-TO-DATE
+> Task :com.android.dialer:extractDeepLinksDebug UP-TO-DATE
+> Task :com.android.phone.common:extractDeepLinksDebug UP-TO-DATE
+> Task :com.android.dialer:processDebugMainManifest UP-TO-DATE
+> Task :com.android.dialer:processDebugManifest UP-TO-DATE
+> Task :com.android.dialer:processDebugManifestForPackage UP-TO-DATE
+> Task :com.android.phone.common:compileDebugLibraryResources UP-TO-DATE
+> Task :com.android.dialer:processDebugResources UP-TO-DATE
+
+> Task :com.android.dialer:compileDebugJavaWithJavac FAILED
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\calllog\CallLogActivity.java:24: 错误: 程序包android.support.v13.app不存在
+import android.support.v13.app.FragmentPagerAdapter;
+                              ^
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\calllog\CallLogActivity.java:59: 错误: 找不到符号
+    public class ViewPagerAdapter extends FragmentPagerAdapter {
+                                          ^
+  符号:   类 FragmentPagerAdapter
+  位置: 类 CallLogActivity
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\calllog\CallLogFragment.java:34: 错误: 程序包android.support.v13.app不存在
+import android.support.v13.app.FragmentCompat;
+                              ^
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\voicemail\VoicemailPlaybackPresenter.java:42: 错误: 程序包com.android.common.io不存在
+import com.android.common.io.MoreCloseables;
+                            ^
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\calllog\CallLogFragment.java:59: 错误: 程序包FragmentCompat不存在
+        FragmentCompat.OnRequestPermissionsResultCallback {
+                      ^
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\voicemail\VoicemailPlaybackLayout.java:39: 错误: 程序包com.android.common.io不存在
+import com.android.common.io.MoreCloseables;
+                            ^
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\voicemail\VoicemailAsyncTaskUtil.java:36: 错误: 程序包com.android.common.io不存在
+import com.android.common.io.MoreCloseables;
+                            ^
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\calllog\DefaultVoicemailNotifier.java:32: 错误: 程序包android.support.v4.util不存在
+import android.support.v4.util.Pair;
+                              ^
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\calllog\DefaultVoicemailNotifier.java:214: 错误: 找不到符号
+    private Pair<Uri, Integer> getNotificationInfo(@Nullable NewCall callToNotify) {
+            ^
+  符号:   类 Pair
+  位置: 类 DefaultVoicemailNotifier
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\contactinfo\ContactPhotoLoader.java:25: 错误: 找不到符号
+import android.support.v4.graphics.drawable.RoundedBitmapDrawable;
+                                           ^
+  符号:   类 RoundedBitmapDrawable
+  位置: 程序包 android.support.v4.graphics.drawable
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\contactinfo\ContactPhotoLoader.java:26: 错误: 找不到符号
+import android.support.v4.graphics.drawable.RoundedBitmapDrawableFactory;
+                                           ^
+  符号:   类 RoundedBitmapDrawableFactory
+  位置: 程序包 android.support.v4.graphics.drawable
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\DialerApplication.java:29: 错误: 程序包com.umeng.analytics不存在
+import com.umeng.analytics.MobclickAgent;
+                          ^
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\list\ListsFragment.java:26: 错误: 程序包android.support.v13.app不存在
+import android.support.v13.app.FragmentPagerAdapter;
+                              ^
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\list\SpeedDialFragment.java:34: 错误: 程序包android.support.v13.app不存在
+import android.support.v13.app.FragmentCompat;
+                              ^
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\list\SpeedDialFragment.java:68: 错误: 程序包FragmentCompat不存在
+        FragmentCompat.OnRequestPermissionsResultCallback {
+                      ^
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\list\SearchFragment.java:52: 错误: 无法访问CompositeCursorAdapter
+public class SearchFragment extends PhoneNumberPickerFragment {
+       ^
+  找不到com.android.common.widget.CompositeCursorAdapter的类文件
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\list\RegularSearchFragment.java:22: 错误: 程序包android.support.v13.app不存在
+import android.support.v13.app.FragmentCompat;
+                              ^
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\list\RegularSearchFragment.java:42: 错误: 程序包FragmentCompat不存在
+        FragmentCompat.OnRequestPermissionsResultCallback {
+                      ^
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\list\SmartDialSearchFragment.java:25: 错误: 程序包android.support.v13.app不存在
+import android.support.v13.app.FragmentCompat;
+                              ^
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\list\SmartDialSearchFragment.java:45: 错误: 程序包FragmentCompat不存在
+        FragmentCompat.OnRequestPermissionsResultCallback {
+                      ^
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\list\ListsFragment.java:109: 错误: 找不到符号
+    public class ViewPagerAdapter extends FragmentPagerAdapter {
+                                          ^
+  符号:   类 FragmentPagerAdapter
+  位置: 类 ListsFragment
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\list\AllContactsFragment.java:31: 错误: 程序包android.support.v13.app不存在
+import android.support.v13.app.FragmentCompat;
+                              ^
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\list\AllContactsFragment.java:55: 错误: 程序包FragmentCompat不存在
+        FragmentCompat.OnRequestPermissionsResultCallback {
+                      ^
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\settings\AppCompatPreferenceActivity.java:22: 错误: 程序包android.support.v7.app不存在
+import android.support.v7.app.AppCompatDelegate;
+                             ^
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\settings\AppCompatPreferenceActivity.java:33: 错误: 找不到符号
+    private AppCompatDelegate mDelegate;
+            ^
+  符号:   类 AppCompatDelegate
+  位置: 类 AppCompatPreferenceActivity
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\settings\AppCompatPreferenceActivity.java:119: 错误: 找不到符号
+    private AppCompatDelegate getDelegate() {
+            ^
+  符号:   类 AppCompatDelegate
+  位置: 类 AppCompatPreferenceActivity
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\settings\DialerSettingsActivity.java:25: 错误: 找不到符号
+import android.support.v4.os.BuildCompat;
+                            ^
+  符号:   类 BuildCompat
+  位置: 程序包 android.support.v4.os
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\SpecialCharSequenceMgr.java:43: 错误: 程序包com.android.common.io不存在
+import com.android.common.io.MoreCloseables;
+                            ^
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\StatisticsUtil.java:5: 错误: 程序包com.umeng.analytics不存在
+import com.umeng.analytics.MobclickAgent;
+                          ^
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\util\PhoneNumberUtil.java:29: 错误: 程序包com.google.i18n.phonenumbers不存在
+import com.google.i18n.phonenumbers.NumberParseException;
+                                   ^
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\util\PhoneNumberUtil.java:30: 错误: 程序包com.google.i18n.phonenumbers不存在
+import com.google.i18n.phonenumbers.Phonenumber;
+                                   ^
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\util\PhoneNumberUtil.java:31: 错误: 程序包com.google.i18n.phonenumbers.geocoding不存在
+import com.google.i18n.phonenumbers.geocoding.PhoneNumberOfflineGeocoder;
+                                             ^
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\calllog\ContactInfo.java:100: 错误: 找不到符号
+        return Objects.toStringHelper(this).add("lookupUri", lookupUri).add("name", name)
+                      ^
+  符号:   方法 toStringHelper(ContactInfo)
+  位置: 类 Objects
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\calllog\CallLogActivity.java:64: 错误: 方法不会覆盖或实现超类型的方法
+        @Override
+        ^
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\calllog\CallLogActivity.java:69: 错误: 方法不会覆盖或实现超类型的方法
+        @Override
+        ^
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\calllog\CallLogActivity.java:81: 错误: 方法不会覆盖或实现超类型的方法
+        @Override
+        ^
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\calllog\CallLogActivity.java:84: 错误: 找不到符号
+                    (CallLogFragment) super.instantiateItem(container, position);
+                                           ^
+  符号: 方法 instantiateItem(ViewGroup,int)
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\calllog\CallLogActivity.java:96: 错误: 方法不会覆盖或实现超类型的方法
+        @Override
+        ^
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\calllog\CallLogActivity.java:101: 错误: 方法不会覆盖或实现超类型的方法
+        @Override
+        ^
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\calllog\CallLogActivity.java:144: 错误: 不兼容的类型: CallLogActivity.ViewPagerAdapter无法转换为PagerAdapter
+        mViewPager.setAdapter(mViewPagerAdapter);
+                              ^
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\calllog\CallLogFragment.java:491: 错误: 找不到符号
+          FragmentCompat.requestPermissions(this, new String[] {READ_CALL_LOG},
+          ^
+  符号:   变量 FragmentCompat
+  位置: 类 CallLogFragment
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\voicemail\VoicemailPlaybackPresenter.java:439: 错误: 找不到符号
+            MoreCloseables.closeQuietly(cursor);
+            ^
+  符号:   变量 MoreCloseables
+  位置: 类 VoicemailPlaybackPresenter
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\calllog\CallLogListItemViewHolder.java:473: 错误: 找不到符号
+                primaryActionButtonView.setImageResource(R.drawable.ic_call_24dp);
+                                                                   ^
+  符号:   变量 ic_call_24dp
+  位置: 类 drawable
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\calllog\CallTypeIconsView.java:203: 错误: 找不到符号
+            voicemail = r.getDrawable(R.drawable.ic_call_voicemail_holo_dark);
+                                                ^
+  符号:   变量 ic_call_voicemail_holo_dark
+  位置: 类 drawable
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\calllog\DefaultVoicemailNotifier.java:176: 错误: 找不到符号
+        Pair<Uri, Integer> info = getNotificationInfo(callToNotify);
+        ^
+  符号:   类 Pair
+  位置: 类 DefaultVoicemailNotifier
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\calllog\DefaultVoicemailNotifier.java:183: 错误: 找不到符号
+                .setColor(resources.getColor(R.color.dialer_theme_color))
+                                                    ^
+  符号:   变量 dialer_theme_color
+  位置: 类 color
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\calllog\DefaultVoicemailNotifier.java:218: 错误: 找不到符号
+            return new Pair<>(null, 0);
+                       ^
+  符号:   类 Pair
+  位置: 类 DefaultVoicemailNotifier
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\calllog\DefaultVoicemailNotifier.java:227: 错误: 找不到符号
+                return new Pair<>(null, Notification.DEFAULT_ALL);
+                           ^
+  符号:   类 Pair
+  位置: 类 DefaultVoicemailNotifier
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\calllog\DefaultVoicemailNotifier.java:240: 错误: 找不到符号
+        return new Pair<>(
+                   ^
+  符号:   类 Pair
+  位置: 类 DefaultVoicemailNotifier
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\calllog\MissedCallNotifier.java:132: 错误: 找不到符号
+                .setColor(mContext.getResources().getColor(R.color.dialer_theme_color))
+                                                                  ^
+  符号:   变量 dialer_theme_color
+  位置: 类 color
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\calllog\MissedCallNotifier.java:145: 错误: 找不到符号
+                .setColor(mContext.getResources().getColor(R.color.dialer_theme_color))
+                                                                  ^
+  符号:   变量 dialer_theme_color
+  位置: 类 color
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\calllog\MissedCallNotifier.java:167: 错误: 找不到符号
+                    builder.addAction(R.drawable.ic_message_24dp,
+                                                ^
+  符号:   变量 ic_message_24dp
+  位置: 类 drawable
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\compat\UserManagerSdkCompat.java:36: 错误: 找不到符号
+        return android.support.v4.os.UserManagerCompat.isUserUnlocked(context);
+                                    ^
+  符号:   类 UserManagerCompat
+  位置: 程序包 android.support.v4.os
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\contactinfo\ContactPhotoLoader.java:86: 错误: 找不到符号
+            final RoundedBitmapDrawable drawable =
+                  ^
+  符号:   类 RoundedBitmapDrawable
+  位置: 类 ContactPhotoLoader
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\contactinfo\ContactPhotoLoader.java:87: 错误: 找不到符号
+                    RoundedBitmapDrawableFactory.create(mContext.getResources(), bitmap);
+                    ^
+  符号:   变量 RoundedBitmapDrawableFactory
+  位置: 类 ContactPhotoLoader
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\database\DialerDatabaseHelper.java:817: 错误: 找不到符号
+                    insert.bindString(5, mContext.getResources().getString(R.string.missing_name));
+                                                                                   ^
+  符号:   变量 missing_name
+  位置: 类 string
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\DialerApplication.java:49: 错误: 找不到符号
+        MobclickAgent.setDebugMode(true);
+        ^
+  符号:   变量 MobclickAgent
+  位置: 类 DialerApplication
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:339: 错误: 找不到符号
+        mDialpadSlideInDuration = getResources().getInteger(R.integer.dialpad_slide_in_duration);
+                                                                     ^
+  符号:   变量 dialpad_slide_in_duration
+  位置: 类 integer
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:363: 错误: 找不到符号
+        mDialpadView = (DialpadView) fragmentView.findViewById(R.id.dialpad_view);
+                                                                   ^
+  符号:   变量 dialpad_view
+  位置: 类 id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:374: 错误: 找不到符号
+        View oneButton = fragmentView.findViewById(R.id.one);
+                                                       ^
+  符号:   变量 one
+  位置: 类 id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:612: 错误: 找不到符号
+        final int[] buttonIds = new int[] {R.id.one, R.id.two, R.id.three, R.id.four, R.id.five,
+                                               ^
+  符号:   变量 one
+  位置: 类 id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:612: 错误: 找不到符号
+        final int[] buttonIds = new int[] {R.id.one, R.id.two, R.id.three, R.id.four, R.id.five,
+                                                         ^
+  符号:   变量 two
+  位置: 类 id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:612: 错误: 找不到符号
+        final int[] buttonIds = new int[] {R.id.one, R.id.two, R.id.three, R.id.four, R.id.five,
+                                                                   ^
+  符号:   变量 three
+  位置: 类 id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:612: 错误: 找不到符号
+        final int[] buttonIds = new int[] {R.id.one, R.id.two, R.id.three, R.id.four, R.id.five,
+                                                                               ^
+  符号:   变量 four
+  位置: 类 id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:612: 错误: 找不到符号
+        final int[] buttonIds = new int[] {R.id.one, R.id.two, R.id.three, R.id.four, R.id.five,
+                                                                                          ^
+  符号:   变量 five
+  位置: 类 id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:613: 错误: 找不到符号
+                R.id.six, R.id.seven, R.id.eight, R.id.nine, R.id.star, R.id.zero, R.id.pound};
+                    ^
+  符号:   变量 six
+  位置: 类 id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:613: 错误: 找不到符号
+                R.id.six, R.id.seven, R.id.eight, R.id.nine, R.id.star, R.id.zero, R.id.pound};
+                              ^
+  符号:   变量 seven
+  位置: 类 id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:613: 错误: 找不到符号
+                R.id.six, R.id.seven, R.id.eight, R.id.nine, R.id.star, R.id.zero, R.id.pound};
+                                          ^
+  符号:   变量 eight
+  位置: 类 id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:613: 错误: 找不到符号
+                R.id.six, R.id.seven, R.id.eight, R.id.nine, R.id.star, R.id.zero, R.id.pound};
+                                                      ^
+  符号:   变量 nine
+  位置: 类 id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:613: 错误: 找不到符号
+                R.id.six, R.id.seven, R.id.eight, R.id.nine, R.id.star, R.id.zero, R.id.pound};
+                                                                 ^
+  符号:   变量 star
+  位置: 类 id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:613: 错误: 找不到符号
+                R.id.six, R.id.seven, R.id.eight, R.id.nine, R.id.star, R.id.zero, R.id.pound};
+                                                                            ^
+  符号:   变量 zero
+  位置: 类 id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:613: 错误: 找不到符号
+                R.id.six, R.id.seven, R.id.eight, R.id.nine, R.id.star, R.id.zero, R.id.pound};
+                                                                                       ^
+  符号:   变量 pound
+  位置: 类 id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:623: 错误: 找不到符号
+        final DialpadKeyButton one = (DialpadKeyButton) fragmentView.findViewById(R.id.one);
+                                                                                      ^
+  符号:   变量 one
+  位置: 类 id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:627: 错误: 找不到符号
+        final DialpadKeyButton zero = (DialpadKeyButton) fragmentView.findViewById(R.id.zero);
+                                                                                       ^
+  符号:   变量 zero
+  位置: 类 id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:825: 错误: 找不到符号
+        if (view.getId() == R.id.digits) {
+                                ^
+  符号:   变量 digits
+  位置: 类 id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:846: 错误: 找不到符号
+            if (resId == R.id.one) {
+                             ^
+  符号:   变量 one
+  位置: 类 id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:848: 错误: 找不到符号
+            } else if (resId == R.id.two) {
+                                    ^
+  符号:   变量 two
+  位置: 类 id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:850: 错误: 找不到符号
+            } else if (resId == R.id.three) {
+                                    ^
+  符号:   变量 three
+  位置: 类 id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:852: 错误: 找不到符号
+            } else if (resId == R.id.four) {
+                                    ^
+  符号:   变量 four
+  位置: 类 id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:854: 错误: 找不到符号
+            } else if (resId == R.id.five) {
+                                    ^
+  符号:   变量 five
+  位置: 类 id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:856: 错误: 找不到符号
+            } else if (resId == R.id.six) {
+                                    ^
+  符号:   变量 six
+  位置: 类 id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:858: 错误: 找不到符号
+            } else if (resId == R.id.seven) {
+                                    ^
+  符号:   变量 seven
+  位置: 类 id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:860: 错误: 找不到符号
+            } else if (resId == R.id.eight) {
+                                    ^
+  符号:   变量 eight
+  位置: 类 id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:862: 错误: 找不到符号
+            } else if (resId == R.id.nine) {
+                                    ^
+  符号:   变量 nine
+  位置: 类 id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:864: 错误: 找不到符号
+            } else if (resId == R.id.zero) {
+                                    ^
+  符号:   变量 zero
+  位置: 类 id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:866: 错误: 找不到符号
+            } else if (resId == R.id.pound) {
+                                    ^
+  符号:   变量 pound
+  位置: 类 id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:868: 错误: 找不到符号
+            } else if (resId == R.id.star) {
+                                    ^
+  符号:   变量 star
+  位置: 类 id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:916: 错误: 找不到符号
+        } else if (resId == R.id.deleteButton) {
+                                ^
+  符号:   变量 deleteButton
+  位置: 类 id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:918: 错误: 找不到符号
+        } else if (resId == R.id.digits) {
+                                ^
+  符号:   变量 digits
+  位置: 类 id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:922: 错误: 找不到符号
+        } else if (resId == R.id.dialpad_overflow) {
+                                ^
+  符号:   变量 dialpad_overflow
+  位置: 类 id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:934: 错误: 找不到符号
+        if (id == R.id.deleteButton) {
+                      ^
+  符号:   变量 deleteButton
+  位置: 类 id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:937: 错误: 找不到符号
+        } else if (id == R.id.one) {
+                             ^
+  符号:   变量 one
+  位置: 类 id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:975: 错误: 找不到符号
+        } else if (id == R.id.zero) {
+                             ^
+  符号:   变量 zero
+  位置: 类 id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:986: 错误: 找不到符号
+        } else if (id == R.id.digits) {
+                             ^
+  符号:   变量 digits
+  位置: 类 id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\dialpad\DialpadFragment.java:1637: 错误: 找不到符号
+        final DialpadView dialpadView = (DialpadView) getView().findViewById(R.id.dialpad_view);
+                                                                                 ^
+  符号:   变量 dialpad_view
+  位置: 类 id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\DialtactsActivity.java:407: 错误: 找不到符号
+        mSearchView = (EditText) searchEditTextLayout.findViewById(R.id.search_view);
+                                                                       ^
+  符号:   变量 search_view
+  位置: 类 id
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\DialtactsActivity.java:462: 错误: 找不到符号
+                    isLayoutRtl ? R.anim.dialpad_slide_in_left : R.anim.dialpad_slide_in_right);
+                                   ^
+  符号:   变量 anim
+  位置: 类 R
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\DialtactsActivity.java:462: 错误: 找不到符号
+                    isLayoutRtl ? R.anim.dialpad_slide_in_left : R.anim.dialpad_slide_in_right);
+                                                                  ^
+  符号:   变量 anim
+  位置: 类 R
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\DialtactsActivity.java:464: 错误: 找不到符号
+                    isLayoutRtl ? R.anim.dialpad_slide_out_left : R.anim.dialpad_slide_out_right);
+                                   ^
+  符号:   变量 anim
+  位置: 类 R
+P:\code_public\gradle-2.x\AndroidDialer\com.android.dialer\src\main\java\com\android\dialer\DialtactsActivity.java:464: 错误: 找不到符号
+                    isLayoutRtl ? R.anim.dialpad_slide_out_left : R.anim.dialpad_slide_out_right);
+                                                                   ^
+  符号:   变量 anim
+  位置: 类 R
+注: 某些输入文件使用或覆盖了已过时的 API。
+注: 有关详细信息, 请使用 -Xlint:deprecation 重新编译。
+注: 某些输入文件使用了未经检查或不安全的操作。
+注: 有关详细信息, 请使用 -Xlint:unchecked 重新编译。
+注: 某些消息已经过简化; 请使用 -Xdiags:verbose 重新编译以获得完整输出
+100 个错误
+仅显示前 100 个错误（共 173 个）；若要查看更多错误，请使用 -Xmaxerrs
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':com.android.dialer:compileDebugJavaWithJavac'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+> Run with --info option to get more log output.
+> Run with --scan to get full insights.
+
+BUILD FAILED in 2s
+73 actionable tasks: 3 executed, 70 up-to-date

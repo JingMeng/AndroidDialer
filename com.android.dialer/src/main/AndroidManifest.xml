@@ -15,7 +15,6 @@
 -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.dialer"
     coreApp="true">
 
     <uses-sdk
@@ -92,7 +91,8 @@
             android:icon="@mipmap/ic_launcher_phone"
             android:windowSoftInputMode="stateAlwaysHidden|adjustNothing"
             android:resizeableActivity="true"
-            android:directBootAware="true">
+            android:directBootAware="true"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.DIAL" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -185,7 +185,8 @@
         <activity android:name="com.android.dialer.CallDetailActivity"
             android:label="@string/callDetailTitle"
             android:theme="@style/CallDetailActivityTheme"
-            android:icon="@mipmap/ic_launcher_phone">
+            android:icon="@mipmap/ic_launcher_phone"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW"/>
                 <category android:name="android.intent.category.DEFAULT"/>
@@ -193,7 +194,8 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="com.android.contacts.common.test.FragmentTestActivity">
+        <activity android:name="com.android.contacts.common.test.FragmentTestActivity"
+            android:exported="false">
             <intent-filter>
                 <category android:name="android.intent.category.TEST"/>
             </intent-filter>
@@ -201,7 +203,8 @@
 
         <activity android:name="com.android.contacts.common.dialog.CallSubjectDialog"
                   android:theme="@style/Theme.CallSubjectDialogTheme"
-                  android:windowSoftInputMode="stateVisible|adjustResize">
+                  android:windowSoftInputMode="stateVisible|adjustResize"
+                  android:exported="false">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW"/>
             </intent-filter>
@@ -271,7 +274,8 @@
             android:exported="false"/>
         <!-- end vCard related -->
 
-        <receiver android:name=".calllog.CallLogReceiver">
+        <receiver android:name=".calllog.CallLogReceiver"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.NEW_VOICEMAIL" />
                 <data
@@ -285,7 +289,8 @@
             </intent-filter>
         </receiver>
 
-        <receiver android:name=".interactions.UndemoteOutgoingCallReceiver">
+        <receiver android:name=".interactions.UndemoteOutgoingCallReceiver"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.NEW_OUTGOING_CALL" />
             </intent-filter>
@@ -298,7 +303,8 @@
         />
 
         <receiver android:name=".calllog.MissedCallNotificationReceiver"
-            android:directBootAware="true">
+            android:directBootAware="true"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.telecom.action.SHOW_MISSED_CALLS_NOTIFICATION" />
             </intent-filter>
@@ -373,3 +379,4 @@
             />
     </application>
 </manifest>
+

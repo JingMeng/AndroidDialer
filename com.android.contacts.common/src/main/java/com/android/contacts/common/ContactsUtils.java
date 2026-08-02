@@ -22,8 +22,8 @@ import android.database.Cursor;
 import android.net.Uri;
 import android.os.Build;
 import android.provider.ContactsContract.CommonDataKinds.Im;
-import android.support.annotation.IntDef;
-import android.support.v4.os.BuildCompat;
+import androidx.annotation.IntDef;
+import androidx.core.os.BuildCompat;
 import android.provider.ContactsContract.DisplayPhoto;
 import android.telephony.PhoneNumberUtils;
 import android.text.TextUtils;
@@ -101,8 +101,8 @@ public class ContactsUtils {
     }
 
 
-    public static final long USER_TYPE_CURRENT = 0;
-    public static final long USER_TYPE_WORK = 1;
+    public static final int USER_TYPE_CURRENT = 0;
+    public static final int USER_TYPE_WORK = 1;
 
     /**
      * UserType indicates the user type of the contact. If the contact is from Work User (Work
@@ -281,3 +281,4 @@ public class ContactsUtils {
 
     }
 }
+

@@ -23,8 +23,8 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.provider.CallLog.Calls;
-import android.support.annotation.Nullable;
-import android.support.v4.content.ContextCompat;
+import androidx.annotation.Nullable;
+import androidx.core.content.ContextCompat;
 import android.telecom.PhoneAccount;
 import android.telecom.PhoneAccountHandle;
 import android.telecom.TelecomManager;
@@ -224,3 +224,4 @@ public class TelecomUtil {
         return (TelephonyManager) context.getSystemService(Context.TELEPHONY_SERVICE);
     }
 }
+
