@@ -16,6 +16,8 @@
 
 package com.android.dialer;
 
+import com.android.dialer.R;
+
 import android.app.Fragment;
 import android.app.FragmentTransaction;
 import android.content.ActivityNotFoundException;

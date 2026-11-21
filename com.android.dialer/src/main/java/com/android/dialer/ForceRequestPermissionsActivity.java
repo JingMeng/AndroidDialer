@@ -15,6 +15,8 @@
  */
 package com.android.dialer;
 
+import com.android.dialer.R;
+
 import android.annotation.TargetApi;
 import android.app.ActionBar;
 import android.app.Activity;

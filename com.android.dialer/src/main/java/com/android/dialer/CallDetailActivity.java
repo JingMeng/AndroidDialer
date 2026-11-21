@@ -16,6 +16,8 @@
 
 package com.android.dialer;
 
+import com.android.dialer.R;
+
 import android.content.ContentUris;
 import android.content.Context;
 import android.content.Intent;

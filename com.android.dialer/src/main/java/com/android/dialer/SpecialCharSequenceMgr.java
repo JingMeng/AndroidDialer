@@ -16,6 +16,8 @@
 
 package com.android.dialer;
 
+import com.android.dialer.R;
+
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.DialogFragment;

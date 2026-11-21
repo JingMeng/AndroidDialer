@@ -16,6 +16,8 @@
 
 package com.android.dialer;
 
+import com.android.dialer.R;
+
 import com.android.contacts.common.ContactsUtils.UserType;
 import com.android.contacts.common.preference.ContactsPreferences;
 import com.android.contacts.common.util.ContactDisplayUtils;
